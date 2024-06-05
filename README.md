@@ -67,7 +67,7 @@ What things you need to install the software and how to install them:
 ### 10. Serve the Application:
 
    ```bash
-   php artisan db:seed
+   php artisan serve
    ```
     
 ### 11. Run npm for vite:
