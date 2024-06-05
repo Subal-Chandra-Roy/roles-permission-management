@@ -27,13 +27,13 @@
                                 <td>
                                     <a href="{{ url('roles/'. $role->id .'/give-permissions')}}" class="btn btn-primary">Add/Edit Role Permission</a>
 
-                                    @can('update role')
+                                    
                                     <a href="{{ url('roles/'. $role->id .'/edit')}}" class="btn btn-success">Edit</a>
-                                    @endcan
+                                    
 
-                                    @can('delete role')
+                                    
                                     <a href="{{ url('roles/'. $role->id .'/delete')}}" class="btn btn-danger">Delete</a>
-                                    @endcan
+                                    
 
                                 </td>
                             </tr>

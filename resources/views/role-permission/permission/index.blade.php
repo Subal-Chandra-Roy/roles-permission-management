@@ -25,13 +25,13 @@
                                 <td>{{$permission->id}}</td>
                                 <td>{{$permission->name}}</td>
                                 <td>
-                                    @can('update permission')
-                                    <a href="{{ url('permissions/'. $permission->id .'/edit')}}" class="btn btn-success">Edit</a>
-                                    @endcan
 
-                                    @can('delete permission')
+                                    <a href="{{ url('permissions/'. $permission->id .'/edit')}}" class="btn btn-success">Edit</a>
+
+
+
                                     <a href="{{ url('permissions/'. $permission->id .'/delete')}}" class="btn btn-danger">Delete</a>
-                                    @endcan
+
                                 </td>
                             </tr>
                             @endforeach
