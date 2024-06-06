@@ -99,3 +99,23 @@ The table below lists the various user roles and their respective permissions in
 | admin            | 'view role', 'view permission', 'view user', 'create user', 'update user', 'delete user'         |
 | user     | 'view user' 
 
+
+# Some Screenshots of the project
+
+## 1.Roles
+![Alt text](screenshots/roles.png)
+
+## 2.Permissions
+![Alt text](screenshots/permissions.png)
+
+## 3.Create Role
+![Alt text](screenshots/create-role.png)
+
+## 4.Create Permision
+![Alt text](screenshots/create-permission.png)
+
+## 5.Add or Update Permissions of Role
+![Alt text](screenshots/add-update-permission-of-a-role.png)
+
+## 6.Users 
+![Alt text](screenshots/users.png)
